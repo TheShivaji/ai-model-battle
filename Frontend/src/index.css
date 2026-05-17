@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import "highlight.js/styles/atom-one-dark.css";
+
+@theme {
+  --color-background: #0B0D17;
+}
+
+body {
+  background-color: var(--color-background);
+  color: #ffffff;
+}
+
+/* Custom Scrollbar for code blocks */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
