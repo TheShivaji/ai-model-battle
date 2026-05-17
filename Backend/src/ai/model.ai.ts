@@ -12,7 +12,7 @@ const gemini = new ChatGoogleGenerativeAI({
 
 const mistral = new ChatMistralAI({
     apiKey: config.mistral,
-    model: "mistral-large",
+    model: "mistral-large-latest",
     temperature: 0.7,
 });
 
